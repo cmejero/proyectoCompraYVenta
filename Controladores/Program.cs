@@ -4,13 +4,13 @@ namespace proyectoCompraYVenta.Controladores
 {
    /// <summary>
    /// Clase principal de la aplicación
-   /// 270923 - cmr
+   /// 021023 - cmr
    /// </summary>
     internal class Program
     {
         /// <summary>
         /// Método de entrada a la aplicación
-        /// 270923 - cmr
+        /// 021023 - cmr
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
@@ -34,10 +34,10 @@ namespace proyectoCompraYVenta.Controladores
                         cerrarMenu = true;  
                         break;
                     case 1:
-                        Console.WriteLine("[INFO] - Se ejecuta caso 1");
+                        Console.WriteLine("[INFO] - Que desea comprar");
                         break;
                     case 2:
-                        Console.WriteLine("[INFO] - Se ejecuta caso 2");
+                        Console.WriteLine("[INFO] - Que desea vender");
                         break;
                     default:
                         Console.WriteLine("[INFO] - Esta opción no coincide con ninguna");
