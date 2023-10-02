@@ -14,12 +14,12 @@ namespace proyectoCompraYVenta.Servicios
     {
        /// <summary>
        /// Método que muestra el menú y recoge la selección del usuario
-       /// 021923 - cmr
+       /// 021023 - cmr
        /// </summary>
         public void mostrarMensajeBienvenida();
         /// <summary>
         /// Método que muestra el menú y recoge la selección del usuario
-        /// 02/1023 - cmr
+        /// 021023 - cmr
         /// </summary>
         /// <returns>un entero con la opción seleccionada</returns>
         public int mostrarMenuYSeleccion();
